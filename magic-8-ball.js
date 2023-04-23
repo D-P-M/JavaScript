@@ -1,3 +1,5 @@
+//Magic 8 ball script
+
 userName = 'Alice';
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
