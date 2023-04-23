@@ -11,7 +11,6 @@ If there’s a tie, then the game ends in a draw.
 If the player draws bomb, they automatically win!
 */
 
-
 const getUserChoice = userInput => {
     userInput = userInput.toLowerCase();
     if(userInput === 'rock' || userInput === 'paper'|| userInput === 'scissors' || userInput === 'bomb'){
@@ -89,6 +88,4 @@ const getUserChoice = userInput => {
   }
   
   playGame();
-  
-  
   
